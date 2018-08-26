@@ -1,8 +1,11 @@
 #!/bin/bash
-echo "what is your name "
+echo " what is your name ? "
 read name
-echo " your name is $name "
+echo $name
 mkdir $name
 cd $name
-touch $name.cpp
-
+for i in 1 2 3 4 5
+do 
+  echo " $i "
+touch $name$i.cpp
+done
