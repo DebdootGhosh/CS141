@@ -112,6 +112,7 @@ else  {
  while(current->next!=NULL){
    
     count++;
+  current=current->next;
    
       }
   cout<<"countitems"<<count<<endl;
